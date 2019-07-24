@@ -60,7 +60,7 @@ run_tests:
   when: always
   variables:
     GIT_STRATEGY: none
-    SUBMIT_ONLY: "true"
+    SUBMIT_ONLY: "false"
   script:
     - /opt/submit_tests.sh
   artifacts:
